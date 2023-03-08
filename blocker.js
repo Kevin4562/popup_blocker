@@ -1,5 +1,5 @@
 setTimeout(function () {
-   alert("loaded");
+   alert("loaded V2");
    window.open = function (url, windowName, windowFeatures) {
       alert("Not opening: " + url);
    }
