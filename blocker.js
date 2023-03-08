@@ -1,6 +1,6 @@
 setTimeout(function () {
    alert("loaded V6");
-   window.location="javascript:window.openLinkIn=function(){alert('Blocked2')};window.open=function(url, target, windowFeatures){alert(`window.open ${url} - ${target}`)};void(0);"
+   window.location="javascript:console.clear=function(){};window.openLinkIn=function(){alert('Blocked2')};window.open=function(url, target, windowFeatures){alert(`window.open ${url} - ${target}`)};void(0);"
 
    Array.from(document.getElementsByTagName("a")).forEach(function(el){
       el.target
