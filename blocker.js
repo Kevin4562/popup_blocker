@@ -9,4 +9,4 @@ setTimeout(function () {
          alert(`${el.href} -  ${el.target}`);
       });
    });
-}, 500);
+}, 200);
