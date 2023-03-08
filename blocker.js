@@ -1,5 +1,5 @@
 setTimeout(function () {
-   alert("loaded V7");
+   alert("loaded V8");
    window.location="javascript:console.clear=function(){};window.openLinkIn=function(){alert('Blocked2')};window.open=function(url, target, windowFeatures){alert(`window.open ${url} - ${target}`)};void(0);"
 
    Array.from(document.getElementsByTagName("a")).forEach(function(el){
@@ -9,4 +9,4 @@ setTimeout(function () {
          alert(`${el.href} -  ${el.target}`);
       });
    });
-}, 200);
+}, 2000);
