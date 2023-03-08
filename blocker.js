@@ -1,5 +1,5 @@
 setTimeout(function () {
-   alert("loaded V3");
+   alert("loaded V4");
    window.location="javascript:window.open=alert('Blocked');void(0);"
 
    Array.from(document.getElementsByTagName("a")).forEach(function(el){
