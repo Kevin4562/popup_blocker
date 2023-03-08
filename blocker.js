@@ -5,9 +5,9 @@ setTimeout(function () {
    }
 
    Array.from(document.getElementsByTagName("a")).forEach(function(el){
-     el.addEventListener("click",function(e){
-       e.preventDefault();
-   alert(`${el.href} -  ${el.target}`);
-     });
+      el.addEventListener("click",function(e){
+         e.preventDefault();
+         alert(`${el.href} -  ${el.target}`);
+      });
    });
 }, 500);
